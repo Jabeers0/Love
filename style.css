@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEEAE6; /* Light Pink */
+    color: #6A1A21; /* Deep Maroon */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.main-header {
+    background-color: #FFC0CB; /* Pink Header */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-header h1 {
+    color: white;
+    margin: 0;
+}
+
+.diary-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.diary-entry {
+    background-color: #FFFFFF; /* White Card */
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(255, 192, 203, 0.5); /* Pink Shadow */
+    text-align: left;
+}
+
+.diary-entry h2 {
+    color: #E91E63; /* Pink Title */
+    border-bottom: 2px solid #FFC0CB;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.entry-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px 0;
+    border: 5px solid #FFC0CB; /* Pink Border */
+}
+
+footer {
+    background-color: #FFC0CB;
+    color: #6A1A21;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+    margin-top: 20px; /* ফুটার যেন ডায়েরির নিচে থাকে */
+}
